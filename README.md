@@ -1,13 +1,13 @@
-# 📘 Optimización del Estudio Académico con Programación Dinámica
+Optimización del Estudio Académico con Programación Dinámica
 
-## 💡 ¿Qué hace el programa?
+## ¿Qué hace el programa?
 
 Este programa permite al usuario **optimizar su tiempo de estudio** para diferentes materias, asignando las horas de forma estratégica para **maximizar el rendimiento académico**.  
 Se basa en el modelo del problema clásico de la **mochila 0/1**, utilizando **programación dinámica** para encontrar la mejor combinación de materias dentro de un límite de horas disponibles.
 
----
+-------------------------------------------------
 
-## ⚙️ ¿Cómo se compila y corre?
+## ¿Cómo se compila y corre?
 
 ### Compilación en terminal (Linux, Mac o WSL):
 ```bash
@@ -27,7 +27,7 @@ estudio_optimo.exe
 
 ---
 
-## 📥 ¿Qué entradas debes usar?
+## ¿Qué entradas debes usar?
 
 El programa te pedirá los siguientes datos por consola:
 
@@ -55,5 +55,5 @@ Materia 3:
   Valor o importancia (puntos): 3
 ```
 
-📊 **Salida esperada:**  
+ **Salida esperada:**  
 El programa imprimirá una tabla `dp[i][j]` y mostrará el **valor máximo alcanzado** al distribuir el tiempo óptimamente.
