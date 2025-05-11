@@ -1,6 +1,6 @@
-# 🧪 Experimentos Intermedios
+#  Experimentos Intermedios
 
-## ✅ Solución sin programación dinámica (10%)
+##  Solución sin programación dinámica (10%)
 
 El problema puede abordarse inicialmente con un enfoque recursivo puro. En esta versión, por cada materia se plantean dos decisiones: incluirla o no. La función se llama a sí misma con las materias restantes y las horas restantes. Esto genera un árbol de decisiones muy grande y costoso.
 
@@ -10,7 +10,7 @@ Este enfoque revela que el problema tiene:
 
 Estas propiedades hacen que el problema sea un excelente candidato para optimización mediante **programación dinámica**.
 
-## ✅ Análisis de complejidad de tiempo y espacio (10%)
+## Análisis de complejidad de tiempo y espacio (10%)
 
 | Enfoque                        | Tiempo      | Espacio     | Comentario                                      |
 |-------------------------------|-------------|-------------|-------------------------------------------------|
@@ -21,7 +21,7 @@ Estas propiedades hacen que el problema sea un excelente candidato para optimiza
 - `n`: número de materias  
 - `H`: total de horas disponibles para estudiar
 
-## ✅ ¿Por qué es más eficiente usar programación dinámica?
+##  ¿Por qué es más eficiente usar programación dinámica?
 
 La programación dinámica es más eficiente porque:
 
